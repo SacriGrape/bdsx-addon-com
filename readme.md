@@ -18,6 +18,7 @@ function eventCallback(data: any): EventResult {
 ```
 ### Triggering an event
 Triggering an event uses the same params though different function names
+
 BDSX
 ```typescript
 let result: EventResult = await fireAddonEvent("TARGET_ID", data);
