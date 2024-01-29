@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§cSend Info To BDSX",
+		"description": "made by banana & halara",
+		"uuid": "2f3fbe13-f979-44de-8e6a-730ee22d937e",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			5
+		]
+	},
+	"modules": [
+        {
+            "type": "data",
+            "uuid": "ac3eef10-c3d2-45e8-95a4-d87374aa6299",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "52c11357-93a6-468c-a6e8-b270ef7f4bf9",
+            "entry": "scripts/index.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		},
+		{
+            "module_name": "@minecraft/server-gametest",
+            "version": "1.0.0-beta"
+        },
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-net",
+			"version": "1.0.0-beta"
+		}
+    ]
+}
