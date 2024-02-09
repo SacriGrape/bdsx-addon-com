@@ -1,1 +1,4 @@
 *.js
+
+!**/addon.js
+!Examples/ExampleAddon/**

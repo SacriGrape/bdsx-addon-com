@@ -151,6 +151,7 @@ class ComRequest {
 
                 if (responseData !== undefined) {
                     clearInterval(intervalTimeout);
+                    console.log(`Addon event over at: ${Date.now()}`);
                     res(responseData);
                 }
             }, 10)
@@ -239,6 +240,7 @@ export class EventResult {
 }
 
 export async function fireAddonEvent(targetId: string, data: any): Promise<EventResult> {
+    console.log(`Addon Event fired from BDSX at: ${Date.now()}`);
     return ComRequest.createAndSend(targetId, data);
 }
 
