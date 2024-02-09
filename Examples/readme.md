@@ -1,6 +1,7 @@
 # Example Info Readme
 ## IMPORTANT NOTE
-For this communication system to work the `@minecraft-server-net`
+For this communication system to work the `@minecraft/server-net` module
+This can be done by adding `@minecraft/server-net` to the `bedrock_server/config/default/permissions.json` file
 
 ## Brief explanation of how to enable examples
 The examples include two parts, `bdsx.ts/js` and `file.js`
